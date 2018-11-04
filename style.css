@@ -1,0 +1,47 @@
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+
+nav {
+
+
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link {
+    color: #9470db;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+.center {
+    text-align: center;
+
+
+}
+
+img{ width:  20%;
+ border: 2px solid black;
+    padding: 20px;
+background-color: white;}
+
+
+body {
+    background-color: lightblue;
+}
+p {
+    background-color: white;
+     border: 2px solid black;
+    padding: 20px;
+
+}
+
+
+
+
