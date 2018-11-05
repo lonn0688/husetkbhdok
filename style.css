@@ -2,7 +2,8 @@ html {
     margin: 0;
     height: 100%;
     width: 100%;
-    padding: 0;
+
+    display: flex;
 }
 
 
@@ -14,26 +15,32 @@ nav {
 }
 
 a:link {
-    color: #9470db;
+    color: white;
     text-decoration: none;
     justify-content: space-between;
+    font-size: 27px;
 
 }
 
 .center {
     text-align: center;
+    padding: 5px;
 
 
 }
 
-img{ width:  20%;
+img{ width:  50%;
+    margin-top: 60px;
  border: 2px solid black;
-    padding: 20px;
+ padding: 20px;
 background-color: white;}
 
 
 body {
-    background-color: lightblue;
+    background-image: url(tropical-leaf-background-vector-20693076.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    /*background-color: lightblue;*/
 }
 p {
     background-color: white;
@@ -42,6 +49,21 @@ p {
 
 }
 
+h1, h3{color: white;
+text-align: center;}
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: solid 1px;*/
+    margin-bottom: 1em;
+}
+
+#om .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin-left: 10px;
+}
 
 
 
